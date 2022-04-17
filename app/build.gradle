@@ -68,11 +68,11 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:2.4.2"
     implementation "androidx.navigation:navigation-ui-ktx:2.4.2"
 
-    // Glide
+    // Glide: for loading images
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     kapt 'com.github.bumptech.glide:compiler:4.13.0'
 
-    // Google Maps Location Services
+    // Google Maps Location Services: tracks user's geolocation
     implementation 'com.google.android.gms:play-services-location:19.0.1'
     implementation 'com.google.android.gms:play-services-maps:18.0.2'
 
@@ -88,10 +88,10 @@ dependencies {
     // Easy Permissions
     implementation 'pub.devrel:easypermissions:3.0.0'
 
-    // Timber
+    // Timber: login library
     implementation 'com.jakewharton.timber:timber:4.7.1'
 
-    // MPAndroidChart
+    // MPAndroidChart: chart for statisticsFragment
     implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
 
     implementation 'android.arch.lifecycle:extensions:1.1.1'
